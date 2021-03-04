@@ -1,0 +1,146 @@
+.background {
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    text-align: left;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.heading h3 {
+    display: inline;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+#start,
+#status,
+#restart {
+    font-size: 22px;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.modal-dialog {
+    width: 70%;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 20px;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+h4 {
+    background-color: grey;
+    color: white;
+    line-height: 2;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+canvas {
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+    color: lime;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 5;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        background-color: blue;
+    }
+
+    10% {
+        box-shadow: 5px 5px 5px red;
+    }
+
+    20% {
+        background-color: cyan;
+    }
+
+    30% {
+        box-shadow: 5px 5px 5px yellow;
+    }
+
+    40% {
+        background-color: black;
+    }
+
+    50% {
+        box-shadow: lime;
+    }
+
+    60% {
+        font-size: 24px;
+    }
+
+    70% {
+        font-style: italic;
+    }
+
+    80% {
+        font-weight: bold
+    }
+
+    90% {
+        font-style: oblique;
+    }
+
+    100% {
+        font-weight: bolder;
+    }
+}
